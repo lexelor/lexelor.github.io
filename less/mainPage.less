@@ -1,0 +1,150 @@
+@import "fonts-colors.less";
+
+.mainPage{
+ 
+    .firstScroll{
+        margin-top:.01%;
+        height: 100%;
+        margin-bottom: 200px;
+    //    border:1px solid red;
+        background: url(../img/BEST1.svg);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: top;
+        padding-top: 25%;
+        @media screen and (max-width:769px){
+            background-size: 80%;
+            padding-top: 50%;
+            height:initial;
+            margin-bottom: 50px;
+        }
+        .firstScroll-heading{
+            color:@fontGrey;
+            font-family: courierNew;
+            font-weight: 100;
+        }
+        .signButton{
+            border-radius:0;
+            width:55%;
+            background: none;
+            color:@fontGrey;
+            border:1px solid @bgBlack2;
+            font-family: courierNew;
+            margin-top:5%;
+            background: bgWhite;
+            &:hover{
+                color:@fontWhite;
+                background: @bgBlue1;
+                border:1px solid @bgBlue1;
+                transition: color .25s ease-in-out;
+                -moz-transition: color .25s ease-in-out;
+                -webkit-transition: color .25s ease-in-out;
+                transition: background .25s ease-in-out;
+                -moz-transition: background .25s ease-in-out;
+                -webkit-transition: background .25s ease-in-out;
+            }
+        }
+        .btnArrows{
+    //        border:1px solid red;
+            width: 45px;
+            height: 50px;
+            margin-top: 2.9%;
+        }
+    }
+
+    
+    
+    .iconThreeContent{
+        .iconThree{
+            font-size: 1.5em;
+            vertical-align: text-bottom;
+            position: relative;
+            bottom:-11px;
+        }
+        h3{
+            color: @fontGrey;
+            font-family:courierNew;
+        }
+        p{
+            margin-top: 5%;
+            font-family:courierNew;
+            color:@fontGrey;
+            font-size:0.725em;
+        }
+        .icon-check-circle-2{color:@iconGreen;}
+        .icon-undo{color: @iconRed;}
+        .icon-button-power-2{color: @iconPurple;}
+        .icon-map-direction{color: @iconBlue2;}
+        .icon-remove-circle-1{color: @iconBrown;}
+        .icon-add-circle-1{color: @iconRed;}
+        .icon-bubble-chat-information-2{font-size:1em;}
+    }
+    
+    .imgContent{
+        img{
+            width:100%;
+        }
+    }
+    
+    .imgCaption{
+        margin-top: 12%;
+        .icon-bubble-chat-information-2{
+            font-size: 1.8em;
+            color:@iconBlue1;
+        }
+    }
+
+    #secondScroll,
+    #thirdScroll,
+    #fourthScroll{
+        overflow: hidden;
+    }
+    
+    .scrollContent{
+        margin-top: 3.5%;
+    }
+
+    .join{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        .bigButton{
+            border-radius:0;
+            width:100%;
+            
+            color:@fontGrey;
+            border:1px solid @bgBlack2;
+            font-family: courierNew;
+    //            margin-top:5%;
+            background: @bgWhite;
+            padding-top: 5%;
+            &:hover{
+                color:@fontWhite;
+                background: @bgBlue1;
+                border:1px solid @bgBlue1;
+                transition: color .25s ease-in-out;
+                -moz-transition: color .25s ease-in-out;
+                -webkit-transition: color .25s ease-in-out;
+                transition: background .25s ease-in-out;
+                -moz-transition: background .25s ease-in-out;
+                -webkit-transition: background .25s ease-in-out;
+            }
+
+            h5{
+                font-family: courierBold;
+            }
+            p{
+                font-family: courierNew;
+                font-size:2.25em;
+                @media screen and (max-width:769px){
+                    font-size:1.25em;
+                }
+                @media screen and (max-width:400px){
+                    font-size:0.875em;
+                }
+            }
+        }
+    }
+    
+    
+    
+}
