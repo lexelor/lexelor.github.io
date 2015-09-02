@@ -3,7 +3,7 @@
 /* Controllers */
 portfolio.controller('worksCtrl', function ($scope) {
 
-    $http.get('projects/works.json').success(function(data) {
+    $http.get('../projects/works.json').success(function(data) {
         $scope.works = data;
       });
     
