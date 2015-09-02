@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app = "portfolio">
 <head>
   <meta charset="utf-8">
   <title>My HTML File</title>
@@ -11,7 +11,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <script src="bower_components/angular/angular.js"></script>
 </head>
-	<body>
+	<body ng-controller="worksCtrl">
 <!---->
 <!---->
      <div class="navbar navbar-inverse navbar-fixed-top">
@@ -70,110 +70,17 @@
           </div>
            <div class="row">  
 
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3" ng-repeat="work in works">
                    <figure>
-                        <p><img src="img/magmagazine-preview.jpg" alt=""></p>
+                        <p><img ng-src="{{work.img}}" alt=""></p>
                         <figcaption>
-                            <h4>MagMagazine</h4>
-                            <a href="magmagazine.html" class="btn btn-default" target="_blank">Show me!</a>
+                            <h4>{{work.name}}</h4>
+                            <a ng-href="{{work.link}}" class="btn btn-default" target="_blank">Show me!</a>
                         </figcaption>
                     </figure>
                </div>
                
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/letusmake-preview.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Let Us Make</h4>
-                            <a href="letusmake.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/GRAphica-preview.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>GRAphica</h4>
-                            <a href="photographicas.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-               
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/flat-corporate-preview.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Flat Corporate</h4>
-                            <a href="projects/FlatCorporate/index.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-           </div>     
-
-           <div class="row">           
-               
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/Math-app-preview.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Math app</h4>
-                            <a href="mathapp.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/reen-preview.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Reen</h4>
-                            <a href="reen.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/lexelorLanding.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Lexelor landing page</h4>
-                            <a href="http://lexelor.com/" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/lexelor.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Lexelor home</h4>
-                            <a href="Lexelor/index.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-               </div>
-
-               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure>
-                        <p><img src="img/oneluke.jpg" alt=""></p>
-                        <figcaption>
-                            <h4>Oneluke</h4>
-                            <a href="oneluke.html" class="btn btn-default" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-                </div>
-
-                <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
-                   <figure class="soon">
-  <!--                        <p><img src="img/lexelorLanding.jpg" alt=""></p>-->
-                        <figcaption>
-                            <h4>Comming soon...</h4>
-                            <a href="" class="btn btn-default disabled" target="_blank">Show me!</a>
-                        </figcaption>
-                    </figure>
-                </div>
-
-           </div>  
+            </div>
        </div>
 <!---->
 <!---->
@@ -196,6 +103,8 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
     <script src="js/smooth.js"></script>
   </body>
 </html>
