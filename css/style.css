@@ -1,0 +1,90 @@
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SystemSanFranciscoDisplayThin.ttf);
+}@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SysteSanFranciscoDisplayUltralight.ttf);
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    padding-top: 80px;
+    font-family: SF;
+}
+.navbar-nav a{
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+.portfolio-logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size:2.5em;
+}
+.navbar .container .navbar-nav{
+    float:right;
+}
+.container:not(:first-child){
+    margin-bottom: 5%;
+}
+.about p {
+    text-align: justify;
+    font-size:1.25em;
+}
+.about img{
+    float:right;
+    margin-top: 5%;
+}
+.works{
+    text-align: center;
+}
+figure{
+    width:103%;
+    background-color: #f2f5f7;
+    margin-bottom: 10%;
+}
+figure img{
+    width:100%;
+}
+.soon{
+    padding:10% 0;
+}
+figure .btn{
+    margin-bottom: 5%;
+}
+figcaption{
+    text-align: center;
+    margin-top: 20px;
+}
+figcaption h4{
+    font-weight:bolder;
+    font-family: SFThin
+}
+.contacts{
+    text-align: center;
+}
+.contacts p{display: inline; margin-right: 2%;}
+
+
+@media screen and (max-width:767px){
+    .navbar .container .navbar-nav{
+        float:none;
+    }
+    .about img{
+        display:none;
+    }
+    .about .col-xs-6{
+        width:100%;
+    }
+    .col-xs-3{
+        width:50%;
+    }
+    .contacts{
+        text-align: left;
+    }
+    .contacts p{
+        display: block; 
+        margin:0;
+    }
+}
