@@ -1,0 +1,80 @@
+.checkedSymbol{
+    position: relative;
+    top:16%;
+}
+.checked{
+    display:block;
+}
+.notChecked{
+    display: none;
+}
+.contentOverlay{
+    display: inline-block;
+    width: 224px;
+    height: 224px;
+    margin-bottom: -.19%;
+}
+.contentOverlay .imgOverlay{
+    width: 224px;
+    height: 224px;
+}
+.contentOverlay .buttonOverlay{
+    display: none;
+    position: absolute;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+.contentOverlay:hover .buttonOverlay{
+    display: block;
+    opacity: 1;
+    background: rgba(0,191,165,.6);
+    box-shadow: 0px 3px 13px 2px black;
+    width: 224px;
+    height: 224px;
+    cursor: pointer;
+    opacity:.9;
+}
+.buttonOverlayChecked{
+    position: absolute;
+    display: block;
+    opacity: 1;
+    background: rgba(0,191,165,.6);
+    box-shadow: 0px 3px 13px 2px black;
+    width: 224px;
+    height: 224px;
+    cursor: pointer;
+    opacity:.9;
+}
+
+.Animals{    background: url(interests/Animals.png) no-repeat; background-size: cover;}
+.Arts{    background: url(interests/Arts.png) no-repeat; background-size: cover;}
+.Automotive{    background: url(interests/Automotive.png) no-repeat; background-size: cover;}
+.Beauty{    background: url(interests/Beauty.png) no-repeat; background-size: cover;}
+.Business{    background: url(interests/Business.png) no-repeat; background-size: cover;}
+.Computers{    background: url(interests/Computers.png) no-repeat; background-size: cover;}
+.Design{    background: url(interests/Design.png) no-repeat; background-size: cover;}
+.Education{    background: url(interests/Education.png) no-repeat; background-size: cover;}
+.Finance{    background: url(interests/Finance.png) no-repeat; background-size: cover;}
+.Fitness{    background: url(interests/Fitness.png) no-repeat; background-size: cover;}
+.Food{    background: url(interests/Food.png) no-repeat; background-size: cover;}
+.Home{    background: url(interests/Home.png) no-repeat; background-size: cover;}
+.Industries{    background: url(interests/Industries.png) no-repeat; background-size: cover;}
+.Internet{    background: url(interests/Internet.png) no-repeat; background-size: cover;}
+.Lifestyle{    background: url(interests/Lifestyle.png) no-repeat; background-size: cover;}
+.Local{    background: url(interests/Local.png) no-repeat; background-size: cover;}
+.Movies{    background: url(interests/Movies.png) no-repeat; background-size: cover;}
+.Music{    background: url(interests/Music.png) no-repeat; background-size: cover;}
+.Parenting{    background: url(interests/Parenting.png);}
+.Photo{    background: url(interests/Photo.png) no-repeat; background-size: cover;}
+.Politics{    background: url(interests/Politics.png) no-repeat; background-size: cover;}
+.Real{    background: url(interests/Real_Estate.png) no-repeat; background-size: cover;}
+.Reference{    background: url(interests/Reference.png) no-repeat; background-size: cover;}
+.Science{    background: url(interests/Science.png) no-repeat; background-size: cover;}
+.Shopping{    background: url(interests/Shopping.png) no-repeat; background-size: cover;}
+.Social{    background: url(interests/Social_Networks.png) no-repeat; background-size: cover;}
+.Sports{    background: url(interests/Sports.png) no-repeat; background-size: cover;}
+.Tele{    background: url(interests/Telecommunications.png) no-repeat; background-size: cover;}
+.Travel{    background: url(interests/Travel.png) no-repeat; background-size: cover;}
+.Traveling{    background: url(interests/Traveling.png) no-repeat; background-size: cover;}
+.Video{    background: url(interests/Video_Games.png) no-repeat; background-size: cover;}

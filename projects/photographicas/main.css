@@ -1,0 +1,704 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.wrapper {
+    width: 91.5%;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+#landing-page {
+    background: #f5f5f8;
+    height: 900px;
+    margin-bottom: 200px;
+}
+
+#landing-page .logo {
+    float: left;
+    margin-top: 50px;
+    clear: both;
+}
+
+#landing-page nav {
+    float: right;
+    margin-top: 70px;
+    width: 20%;
+}
+
+#landing-page nav ul {
+    list-style: none;
+}
+
+#landing-page nav ul li {
+    display: inline-block;
+    float: left;
+    margin-left: 8%;
+}
+
+#landing-page nav ul li a {
+    text-decoration: none;
+    color: #b8b8bc;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#landing-page nav ul li a.active,
+#landing-page nav ul li a:hover {
+    color: #231f20;
+}
+
+#landing-page h1 {
+    display: inline-block;
+    font-family: HelveticaNeue;
+    color: #231f20;
+    font-size: 2.76em;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-top: 299px;
+    margin-left: 25%;
+}
+
+/*GALLERY
+.media{margin:0 auto;width:1200px;}
+
+.section1{height:390px; margin-bottom: 15px;}
+.section1 img:first-child{float:left; margin-right:15px;}
+.section1 img:last-child{float:left;}
+
+.section2{height:390px; margin-bottom: 15px;}
+.section2 img:first-child{float:left; margin-right:15px;}
+.section2 img:nth-child(2){float:left;  margin-right:15px;}
+.section2 img:last-child{float:left;}
+
+.section3{height:795px;}
+.section3 img:first-child{float:left; margin-right:15px;}
+.section3 img:nth-child(2){float:left;  margin-right:15px; margin-bottom: 15px;}
+.section3 img:nth-child(3){float:left;margin-bottom: 15px;}
+.section3 img:last-child{float:left;}
+
+*/
+/*GALLERY2*/
+.media {
+    margin: 0 auto;
+    width: 83.27%;
+}
+
+.section1 {
+    height: 390px;
+    margin-bottom: 1.25%;
+}
+
+.work_1 {
+    background: url("img/work_1.png") no-repeat;
+    width: 32.5%;
+    height: 100%;
+    float: left;
+    margin-right: 1.25%;
+}
+
+.work_2 {
+    background: url("img/work_2.png") no-repeat;
+    width: 66.25%;
+    height: 100%;
+    float: left;
+}
+
+.section2 {
+    height: 390px;
+    margin-bottom: 1.25%;
+}
+
+.work_3 {
+    background: url("img/work_3.png") no-repeat;
+    width: 32.5%;
+    height: 100%;
+    float: left;
+    margin-right: 1.25%;
+}
+
+.work_4 {
+    background: url("img/work_4.png") no-repeat 100%;
+    width: 32.5%;
+    height: 100%;
+    float: left;
+    margin-right: 1.25%;
+}
+
+.work_5 {
+    background: url("img/work_5.png") no-repeat;
+    width: 32.5%;
+    height: 100%;
+    float: left;
+}
+
+.section3 {
+    height: 795px;
+}
+
+.work_6 {
+    background: url("img/work_6.png") no-repeat;
+    width: 32.5%;
+    height: 100%;
+    float: left;
+    margin-right: 1.25%;
+}
+
+.work_7 {
+    background: url("img/work_7.png") no-repeat;
+    width: 32.5%;
+    height: 49.2%;
+    float: left;
+    margin-right: 1.25%;
+}
+
+.work_8 {
+    background: url("img/work_8.png") no-repeat;
+    width: 32.5%;
+    height: 49.2%;
+    float: left;
+
+}
+
+.work_9 {
+    background: url("img/work_9.png") no-repeat;
+    width: 66.25%;
+    height: 100%;
+    float: left;
+    margin-top: 1.25%;
+}
+
+/*CONTACTS*/
+#contacts {
+    width: 84.71337579617835%;
+    height: 676px;
+    margin: 600px auto 0;
+
+}
+
+#contacts h1 {
+    display: inline-block;
+    float: left;
+    font-family: HelveticaNeue;
+    font-size: 4em;
+    color: #231f20;
+}
+
+#contacts .office {
+    display: inline-block;
+    float: left;
+    clear: left;
+    margin-right: 10.509554140127388%;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#contacts .social {
+    display: inline-block;
+    float: left;
+    margin-right: 16.878980891719745%;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#contacts .hello {
+    display: inline-block;
+    float: left;
+    width: 34%;
+    font-family: HelveticaNeue;
+}
+
+#contacts .hello .form1 {
+    float: left;
+    margin-bottom: 8px;
+    width: 96.55976020981642%;
+    height: 50px;
+    padding-left: 2%;
+}
+
+#contacts .hello .form2 {
+    float: left;
+    margin-bottom: 20px;
+    width: 96.55976020981642%;
+    height: 114px;
+    padding-left: 2%;
+}
+
+#contacts .hello .sumbitbtn {
+    float: left;
+    color: #fff;
+    background-color: #231f20;
+    width: 20.23229674035219%;
+    height: 30px;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1em;
+}
+
+/*Evolving*/
+#evolving .banner img {
+    width: 100%;
+    position: relative;
+}
+
+#evolving .banner img:first-child {
+    position: relative;
+    width: 2%;
+    left: 90%;
+    top: 530px;
+    z-index: 2;
+}
+
+#evolving {
+    background: #231f20;
+    width: 100%;
+    height: 40px;
+}
+
+#evolving nav {
+    height: 40px;
+    float: right;
+    margin-top: 0px;
+    width: 20%
+}
+
+#evolving nav ul {
+    list-style: none;
+    margin-top: 10px
+}
+
+#evolving nav ul li {
+    display: block;
+    float: left;
+    margin-left: 15%;
+}
+
+#evolving nav ul li a {
+    text-decoration: none;
+    color: #b8b8bc;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#evolving nav ul li a.active,
+#evolving nav ul li a:hover {
+    color: #fff;
+}
+
+#evolving .logo {
+    float: left;
+    margin-top: 10px;
+    width: 1.2738853503184715%;
+    height: 14px
+}
+
+.personaly {
+    width: 100%;
+    height: 350px;
+    margin-top: -350px;
+    background-color: #fff;
+    position: absolute;
+    padding-top: 9.554140127388536%;
+}
+
+.contentl h1 {
+    font-size: 2.8125em;
+    display: inline-block;
+    margin-left: 5.899426751592357%;
+    font-family: HelveticaNeue;
+}
+
+.contentl p {
+    font-size: 1.25em;
+    width: 88.21656050955414%;
+    margin-left: 6.369426751592357%;
+    font-family: HelveticaNeue;
+}
+
+.contentl {
+    float: left;
+    width: 43%;
+}
+
+.contentr {
+    float: right;
+    text-align: center;
+    width: 45%
+}
+
+.contentr h1 {
+    background: url(img/case.png) no-repeat;
+    width: 12px;
+    height: 10px;
+    margin-left: 49%;
+}
+
+.contentr p {
+    font-size: 30px;, font-weight : bold;
+    font-family: HelveticaNeue;
+    display: inline-block;
+}
+
+.separator {
+    width: 20.382165605095544%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    bottom: 45.286624203821656%;
+    border: 0;
+    transform: rotate(90deg);
+}
+
+#evolving .contacts {
+    width: 84.71337579617835%;
+    height: 676px;
+    margin: 0 auto;
+    margin-top: 600px;
+}
+
+#evolving .contacts h1 {
+    display: inline-block;
+    float: left;
+    font-family: HelveticaNeue;
+    font-size: 4em;
+    color: #231f20;
+}
+
+#evolving .contacts .office {
+    display: inline-block;
+    float: left;
+    clear: left;
+    margin-right: 10.509554140127388%;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#evolving .contacts .social {
+    display: inline-block;
+    float: left;
+    margin-right: 16.878980891719745%;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#evolving .contacts .hello {
+    display: inline-block;
+    float: left;
+    width: 34%;
+    font-family: HelveticaNeue;
+}
+
+#evolving .contacts .hello .form1 {
+    float: left;
+    margin-bottom: 8px;
+    width: 96.55976020981642%;
+    height: 50px;
+    padding-left: 2%;
+}
+
+#evolving .contacts .hello .form2 {
+    float: left;
+    margin-bottom: 20px;
+    width: 96.55976020981642%;
+    height: 114px;
+    padding-left: 2%;
+}
+
+#evolving .contacts .hello .sumbitbtn {
+    float: left;
+    color: #fff;
+    background-color: #231f20;
+    width: 20.23229674035219%;
+    height: 30px;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1em;
+}
+
+/*MOBILE*/
+
+#mobile {
+    width: 100%;
+    margin-top: 2200px;
+}
+
+.heading {
+    background: url(img/heading.png);
+    width: 44.11847133757962%;
+    height: 622px;
+    margin-left: 30%;
+    margin-bottom: 300px;
+}
+
+#mobile-pages {
+    width: 99.99363057324841%;
+    height: 1184px;
+}
+
+#mobile-pages-top {
+    margin-bottom: 39px;
+    height: 566px
+}
+
+.wrapper2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*PAGE 1*/
+#mobile-pages #page1 {
+    width: 22.111%;
+    height: 566px;
+    display: inline-block;
+    margin-right: 39px;
+    background-color: #f5f5f8;
+
+    float: left;
+}
+
+#mobile-pages #page1 .logo img {
+    float: left;
+    margin-top: 25px;
+    width: 30%;
+}
+
+#mobile-pages #page1 .nav {
+    width: 65%;
+    float: right;
+    margin-top: 9%;
+}
+
+#mobile-pages #page1 .nav ul {
+    list-style: none;
+}
+
+#mobile-pages #page1 .nav ul li {
+    width: 36%;
+    display: inline;
+    margin-left: 3%
+}
+
+#mobile-pages #page1 .nav ul li a {
+    text-decoration: none;
+    color: #b8b8bc;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+}
+
+#mobile-pages #page1 .nav ul li a.active,
+#mobile-pages #page1 .nav ul li a:hover {
+    color: #231f20;
+}
+
+#mobile-pages #page1 h1 {
+    display: inline-block;
+    font-family: HelveticaNeue;
+    color: #231f20;
+    font-size: 1.56em;
+    font-weight: 700;
+    text-align: center;
+    width: 90%;
+    margin-top: 150px;
+}
+
+/*PAGE 2*/
+#mobile-pages #page2 {
+    width: 22%;
+    height: 566px;
+    display: inline-block;
+    margin-right: 3.111801242236025%;
+    background-color: #ffffff;
+    float: left;
+}
+
+.headbar {
+    width: 112%;
+    background: #231f20;
+    height: 45px;
+    margin-left: -6%;
+}
+
+.headbar p {
+    width: 6%;
+    float: left;
+    margin-left: 10%;
+    color: white;
+}
+
+.headbar ul {
+    width: 50%;
+    float: right;
+    list-style: none;
+    margin-right: 4%
+
+}
+
+.headbar ul li {
+    display: inline-block;
+}
+
+.headbar ul li a {
+    text-decoration: none;
+    color: #b8b8bc;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+    margin-left: 8%;
+}
+
+.headbar ul li a.active,
+.headbar ul li a:hover {
+    color: #FFF;
+}
+
+#mobile-pages #page2 img {
+    margin-bottom: 5%;
+}
+
+#mobile-pages #page2 img:first-child {
+    margin-top: 6%;
+}
+
+/*PAGE 3*/
+#mobile-pages #page3 {
+    width: 22.111%;
+    height: 566px;
+    display: inline-block;
+    margin-right: 4%;
+    background-color: #ffffff;
+    overflow: hidden;
+    float: left;
+}
+
+#mobile-pages #page3 img {
+    margin-bottom: 5%;
+}
+
+#mobile-pages #page3 img:nth-child(2) {
+    margin-right: 2%
+}
+
+/*PAGE 4*/
+#mobile-pages #page4 {
+    width: 22.111%;
+    height: 100%;
+    display: inline-block;
+    background-color: #ffffff;
+    float: left;
+}
+
+#mobile-pages #page4 img {
+    position: absolute;
+    margin-left: -5.1%;
+    z-index: 1;
+}
+
+#mobile-pages #page4 img:first-child {
+    z-index: 2;
+    position: relative;
+    left: 76%;
+    top: 140px;
+}
+
+#mobile-pages #page4 .evolving_content {
+    margin-top: 55%;
+}
+
+#mobile-pages #page4 .evolving_content h1:first-child {
+    font-size: 1.5em
+}
+
+#mobile-pages #page4 .evolving_content p {
+    font-size: 1em;
+    margin-bottom: 90px;
+}
+
+#mobile-pages #page4 .evolving_content h1:last-child {
+    background: url(img/case.png);
+    width: 100%;
+    height: 100%;
+}
+
+/*PAGE 5*/
+#mobile-pages #page5 {
+    width: 22.111%;
+    height: 566px;
+    display: inline-block;
+    margin-right: 4%;
+    background-color: #ffffff;
+    float: left;
+}
+
+#mobile-pages #page5 img {
+    position: absolute;
+    margin-left: -3.25%;
+    z-index: 1;
+}
+
+#mobile-pages #page5 img:last-child {
+    z-index: 2;
+    position: relative;
+    left: 76%;
+    top: 460px;
+}
+
+/*PAGE 6*/
+#mobile-pages #page6 {
+    width: 22.111%;
+    height: 566px;
+    display: inline-block;
+    margin-right: 4%;
+    background-color: #fafafd;
+    float: left;
+}
+
+#mobile-pages #page6 .office,
+#mobile-pages #page6 .social {
+    font-size: 1.3em;
+}
+
+/*PAGE 7*/
+#mobile-pages #page7 {
+    width: 23.38216560509554%;
+    height: 566px;
+    display: inline-block;
+    background-color: #fafafd;
+    float: left;
+}
+
+#mobile-pages #page7 .hello {
+    font-size: 1.3em
+}
+
+#mobile-pages #page7 .hello .form1 {
+    float: left;
+    margin-bottom: 8px;
+    width: 96.55976020981642%;
+    height: 50px;
+    padding-left: 2%;
+    font-size: 1em;
+}
+
+#mobile-pages #page7 .hello .form2 {
+    float: left;
+    margin-bottom: 20px;
+    width: 96.55976020981642%;
+    height: 114px;
+    padding-left: 2%;
+    font-size: 1em;
+}
+
+#mobile-pages #page7 .hello .sumbitbtn {
+    float: left;
+    color: #fff;
+    background-color: #231f20;
+    width: 40.23229674035219%;
+    height: 30px;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 1em;
+}

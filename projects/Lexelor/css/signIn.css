@@ -1,0 +1,149 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.navbar {
+  background: #ffffff;
+}
+.navbar .navbar-brand {
+  background: url(../img/logo_sign_in.svg) no-repeat;
+  background-position: center;
+  width: 150px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .navbar-brand {
+    width: 130px;
+  }
+}
+.signPage {
+  background: #ffffff;
+}
+.signPage header {
+  margin-top: -100px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .signPage header {
+    margin-top: -140px;
+  }
+}
+@media screen and (max-height: 560px) {
+  .signPage header {
+    margin-top: -40px;
+  }
+}
+.signPage header h1 {
+  color: #303030;
+}
+.signPage header .form-group label {
+  width: 100%;
+  color: #686868;
+  padding: 2%;
+}
+.signPage header .form-group label .text-right {
+  float: right;
+}
+.signPage header .form-group label a {
+  color: #686868;
+}
+.signPage header .form-group label a:hover {
+  text-decoration: none;
+}
+.signPage header .form-group .forgot {
+  color: #303030;
+}
+.signPage header .form-group input {
+  border: none;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 0;
+  height: 60px;
+  box-shadow: none;
+}
+.signPage header .form-group input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.signPage header .hasFocus {
+  border-left: 3px solid #1d81e2;
+  background: #fafafa;
+  transition: border-left 0.25s ease-in-out;
+  -moz-transition: border-left 0.25s ease-in-out;
+  -webkit-transition: border-left 0.25s ease-in-out;
+}
+.signPage header .hasFocus input {
+  background: #fafafa;
+}
+@media screen and (max-width: 365px) {
+  .signPage header .facebook {
+    width: 100%;
+    text-align: left;
+  }
+}
+.signPage header .facebook .icon-logo-circle-facebook {
+  font-size: 2em;
+  position: relative;
+  top: 9px;
+}
+.signPage header .submit {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #1d81e2;
+  color: white;
+  font-family: courierNew;
+  font-size: 1.6em;
+}
+.signPage header .submit:hover {
+  opacity: .7;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+.signPage .passHelp {
+  margin-top: 5%;
+}

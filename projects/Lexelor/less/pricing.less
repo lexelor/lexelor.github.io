@@ -1,0 +1,112 @@
+@import "fonts-colors.less";
+
+.pricingPage{
+    #pricing{
+          .green{
+                color:#62d395;
+            }
+            p{
+              font-size: .8em;
+            }
+            h2{
+              font-family: courierNew;
+              font-size:1.35em;
+              line-height:250%;
+              font-weight: 100;
+            }
+        padding-top: 3%;
+        padding-bottom: 20%;
+        @media screen and (max-width:1024px){
+            padding-bottom: 45%;
+        }
+        @media screen and (max-width:769px){
+            padding-bottom: 35%;
+          p{
+            font-size: 1em;
+          }
+        }
+        @media screen and (max-width:500px){
+            padding-bottom: 50%;
+        }
+        @media screen and (max-width:400px){
+            padding-bottom: 90%;
+        }
+    }
+
+    .fee{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 10%;
+        background-color: @greyLight;
+        h2{
+          font-family: courierNew;
+          font-size:1.75em;
+          line-height:200%;
+          font-weight: 100;
+          @media screen and (max-width:769px){
+              font-size:1.5em;
+          }
+        }
+    }
+    .infoBlock{
+      p{
+        font-family: SFUltraLight;
+        line-height: 200%;
+        font-weight: bolder;
+        letter-spacing: .75px;
+        @media screen and (max-width:769px){
+            letter-spacing: .5px;
+        }
+      }
+    }
+
+    .bigInfoBlock{
+        margin-bottom: 5%;
+        .icon-add-circle-1{color:#e85657;}
+        .icon-check-circle-2{color:#8fd69c;}
+        .icon-undo{color:#6b69d2;}
+        .icon-remove-circle-1{color:#796357;}
+
+        h3{
+            font-family: courierNew;
+            margin-bottom: 5%;
+        }
+        p{
+            font-family: SFUltraLight;
+            line-height: 200%;
+            font-weight: bolder;
+            letter-spacing: .75px;
+            @media screen and (max-width:769px){
+                letter-spacing: .5px;
+            }
+        }
+        .rightBlock{
+            background: #e6f2e8;
+            padding: 40px;
+            div{
+                margin: 20% 0;
+                border-bottom: 1px dotted @black;
+            }
+        }
+    }
+    .more{
+      margin-top: 10% 0;
+      margin-bottom: 10% 0;
+        .moreUnderline{
+          border-bottom: 1px dashed #ccc;
+            h3{
+                font-family: SFUltraLight;
+                line-height: 200%;
+                font-weight: bolder;
+                letter-spacing: .75px;
+                font-size:1.1em;
+                padding: 1em 0;
+                @media screen and (max-width:769px){
+                    letter-spacing: .5px;
+                }
+            }
+
+        }
+    }
+
+}

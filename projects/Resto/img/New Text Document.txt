@@ -1,0 +1,4 @@
+border color - #f34949
+font for header - font-family: WCManoNegraBta;
+font-family: Aleo;
+&#9733; - юникод для звёздочки

@@ -1,0 +1,92 @@
+@import "fonts-colors.less";
+.dots{
+    height: 500px;
+}
+.landingHeading{
+    background: #3a7ab8;
+    color:@white;
+    height:500px;
+    margin-top: -20px;
+    .container{padding: 0;}
+    .headingText{
+        margin-top: 13%;
+        h1{
+            margin-bottom: 5%;
+            font-size:3.5em;
+            font-weight: 100;
+            font-family: courierNew;
+        }
+        h4{
+            font-family: courierNew;
+        }
+        .vZeroBtn{
+            background:#ffde85;
+            font-family: courierBold;
+            font-size:1em;
+            margin-top: 5%;
+            color: @antonBlack;
+            border-radius: 0;
+            border: 1px solid @black;
+            padding: 2.0% 1.5%;
+            &:hover{
+                background: #ffe8aa;
+                border: 1px solid #ffe8aa;
+                .transition;
+                .transitionBg;
+            }
+        }
+
+        .notifiedBtn{
+            font-family: courierBold;
+            font-size:1em;
+            margin-top: 5%;
+            color: @antonBlack;
+            border-radius: 0;
+            border: 1px solid @antonBlack;
+            padding: 2.0% 1.5%;
+            // cursor: pointer;
+            text-decoration: none;
+            background: @white;
+            &:hover{
+                font-family: courierBold;
+                font-size:1em;
+                margin-top: 5%;
+                color:@white;
+                background: @antonBlack;
+                border: 1px solid @antonBlack;
+                .transition;
+                .transitionBg;
+            }
+        }
+
+    }
+
+}
+.info{
+    .row{
+        border-top:1px dotted @black;
+        &:nth-child(2){
+            border-bottom:1px dotted @black;
+        }
+        .infoBlock:not(:last-child){
+            border-right:1px dotted @black;
+        }
+        .infoBlock{
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+        }
+        @media screen and (max-width:1024px){
+            border:none;
+            &:nth-child(2){
+                border :none;
+
+            }
+            .infoBlock:not(:last-child){
+                border:none;
+            }
+            .infoBlock{
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

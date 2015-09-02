@@ -1,0 +1,10 @@
+{
+  "name": "focal",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-watch": "^4.2.4"
+  }
+}

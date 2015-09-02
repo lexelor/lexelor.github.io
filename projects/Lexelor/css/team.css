@@ -1,0 +1,78 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+html,
+body {
+  height: 100%;
+}
+.teamPage .team {
+  margin-bottom: 50px;
+}
+.teamPage .team .profileLinks a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #303030;
+  font-family: courierNew;
+  padding-left: 3%;
+}
+.teamPage .team .profileLinks a:hover {
+  text-decoration: none;
+}
+.teamPage .team .profileLinks a .icon-logo-email:hover {
+  color: #d34836;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.teamPage .team .profileLinks a .icon-logo-twitter-bird:hover {
+  color: #55acee;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.teamPage .team .profileLinks a .icon-logo-linkedin:hover {
+  color: #007bb6;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.teamPage .team img {
+  width: 35%;
+}
+.teamPage .team .position {
+  color: #686868;
+}
+.teamPage .team .AlexR {
+  margin-top: .6%;
+}
+.teamPage .team .AntonS,
+.teamPage .team .DmitryS {
+  margin-top: 1%;
+}

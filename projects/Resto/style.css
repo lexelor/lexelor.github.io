@@ -1,0 +1,204 @@
+
+body{
+    width:100%;
+    margin: 0 auto;
+    //background: url("Resto.png");
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*HEADER*/
+header{
+    height:67px;
+}
+
+header img{
+    float:left;
+    margin-left: 14.7%;
+    margin-top:2.9%;
+    width: 5%;
+}
+header nav ul{
+    float:right;
+    margin-right: 5%;
+    margin-top:3.4%;
+    list-style: none;
+    width: 40.3%;
+}
+header nav li{
+    display:inline;
+    padding-right: 9.4%;
+    font-size: 1rem;
+}
+header nav a{
+    text-decoration: none;
+    color:black;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*LOGO*/
+#logo{
+    background-size: 100% ;
+    text-align: center;
+    background-image: url('img/bilbioard.png');
+    height:570px;
+    color:white;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #f34949;
+}
+#logo h1{
+    font-size:4rem;
+    padding-top: 16%;
+}
+#logo p{
+    font-size:1.85rem;
+}
+/*menu*/
+#menu{
+    margin-top: -1.7%;
+}
+.menulogo{
+    background: url(img/menushape.png) no-repeat;
+    height:75px;
+    margin-left: 43%;
+    font-size: 1.7rem;
+    color:white;
+    width:8.5%;
+    padding-top:1%;
+    padding-left:1.4%;
+    font-weight:normal;
+}
+ul.section { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    width: 100%; 
+    overflow: hidden; 
+} 
+ul.section li.odd { 
+    float: left; 
+    width: 28%; 
+    margin-left: 15%; 
+    margin-right: 11%;
+} 
+ul.section li { 
+    float: left; 
+    width: 28%;
+} 
+ul.section li h2 { 
+    font-family: Arial; 
+    font-size: 10em; 
+    width: 28%;
+    text-align: center; 
+    margin-bottom: 30px; 
+} 
+ul.section li ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+} 
+ul.section li { 
+    float: left; 
+    width: 425px;
+    margin-bottom: 50px; 
+} 
+ul.section li ul li { 
+    padding: 10px 0; 
+    margin-bottom: 0; 
+} 
+ul.section li ul li h2 { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial; 
+    font-size: 1rem; 
+    width: 88%; 
+    float: left; 
+    text-align: left; 
+} 
+ul.section li ul li span {  
+    float: left; 
+    font-family: Arial; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    text-align: right; 
+} 
+ul.section li ul li p { 
+    width: 425px; 
+    margin: 0; 
+    padding: 0; 
+    color: gray; 
+    opacity:.5;
+} 
+ul.section li ul li h2 a { 
+    font-size: 1rem;  
+    float: left; 
+    text-align: left; 
+    color: #000000; 
+    text-decoration: none; 
+}
+#menu button{
+    margin-left:45%;
+    background: none;
+    border:1px solid rgba(0,0,0,.2);
+    width:6%;
+    color: rgba(0,0,0,.5);
+    height: 30px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#slider{
+    width: 90%;
+    padding-left:9%;
+}
+#slider h4{
+    margin-left:6.2%;
+}
+.images{
+    margin-left:3%;
+}
+#slider figure{
+    display:inline-block;
+    margin-right:-8%;
+}
+figure img{
+    width: 65%;
+}
+figure h1{
+    font-size:0.9em;
+    width: 66%;
+    float:left;
+}
+figure span{
+    float:right;
+}
+figure p{
+    clear:both;
+    float:left;
+    font-size:0.9rem;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#gallery{width:75%; margin-left:15%; height:650px;}
+#gallery h2{width:15%; opacity:.8}
+#gPics{width: 100%;}
+#gPics img{width: 30%;}
+.gPbuisc{float:left;}
+.gPcrois{float:left;}
+.gPpiz{float:left;}
+.gPsalf{float:left;}
+.gPsal{float:left;}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    width:90%;
+    background: #3b3b3b;
+    height:200px;
+    padding-left:10%;
+    padding-top: 7%;
+}
+footer ul{
+    display: inline-block;
+    color:#fff;
+    list-style:none;    
+    margin-left: 6%;
+}
+footer li{
+    padding-bottom:7%;
+    
+}

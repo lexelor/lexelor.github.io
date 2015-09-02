@@ -1,0 +1,94 @@
+@media screen and (width:340px),
+       screen and (max-width:440px) {
+           .big-footer{
+               height:72em;
+           }
+       }
+@media screen and (width:441px),
+       screen and (max-width:500px) {
+           .big-footer{
+               height:74em;
+           }
+       }
+@media screen and (width:501px),
+       screen and (max-width:550px) {
+           .big-footer{
+               height:76em;
+           }
+       }
+@media screen and (width:551px),
+       screen and (max-width:600px) {
+           .big-footer{
+               height:78em;
+           }
+       }
+@media screen and (width:601px),
+       screen and (max-width:650px) {
+           .big-footer{
+               height:81em;
+           }
+       }
+@media screen and (width:651px),
+       screen and (max-width:700px) {
+           .big-footer{
+               height:83em;
+           }
+       }
+@media screen and (width:701px),
+       screen and (max-width:767px) {
+           .big-footer{
+               height:86em;
+           }
+       }
+
+@media screen and (max-width:767px){
+           .header-upper .left,
+           .fa-search{display: none;}        
+           .header-upper .right a i{
+               padding: 2% 1%;
+               width: 16%; 
+               font-size:0.9em;
+               text-align: center;
+           }
+           .item .carousel-caption h2{font-size:2em;}
+           .item .carousel-caption p{font-size:0.6em; width:60%;}
+           .item .carousel-caption button{
+               font-size:0.5em; 
+               width:25%; 
+               height:25px; 
+               margin-top:-10%;
+           }
+           .item-1 .carousel-caption{bottom:21%;}
+           .item-2 .carousel-caption{bottom:14%;}
+           .item-3 .carousel-caption{bottom:14%;}
+           .item-4 .carousel-caption{bottom:10%}
+           .item-5 .carousel-caption{bottom:32%;width:48%;}
+           #carousel{display: none;}
+           .about-header h2,
+           .works-header h2,
+           .contact h2{font-size:1.5em;}
+           
+           .about-header p,
+           .works-header p,
+           .contact p{font-size:0.8em;}
+           
+           .about-content .fa{display: none}
+           .about-content .col-xs-3{width:100%;}
+           .about-content .col-xs-3 h4{font-size:1.2em;}
+           .about-content .col-xs-3 p{font-size:.8em;}
+           
+           .works{height:700px;}
+           .works-header h2{margin-top: 0;}
+           .works-content figcaption h4{font-size:.7em}
+           .works-content figcaption a{font-size:.7em}
+           
+           .carousel2-item img {width:22.6%;}
+           .contact h2{margin-top: 0;}
+           
+           .big-footer .col-xs-3,
+           .small-footer .col-xs-6{width:100%;}
+           
+           .small-footer{height:6em;}
+           .small-footer .col-xs-6{width: 100%;text-align: center;}
+           .small-footer .right span{float:none;}
+    }

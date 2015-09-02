@@ -1,0 +1,57 @@
+@media screen and (width:1200px),
+  screen and (max-width:1599px){
+    /*CAROUSEL UPPER*/
+    .item .carousel-caption button{width:30.4%;}
+    .item .carousel-caption h2{font-size:4.075em;}
+    .item .carousel-caption p{font-size:1.2em;}
+    .item-1 .carousel-caption{bottom:31%;}
+    .item-2 .carousel-caption{bottom:24%;}
+    .item-3 .carousel-caption{bottom:24%;}
+    .item-4 .carousel-caption{bottom:20%}
+    .item-5 .carousel-caption{bottom:34%;width:48%;}
+}
+
+@media screen and (width:768px),
+  screen and (max-width:1199px){
+    .navbar-brand img{width:50%;}    
+    .navigation .col-md-9{width:94%;}
+    .navigation .col-md-1{width:1%;}
+    .navigation .navbar-nav a{padding-left: 15%;}
+    .navigation .navbar-nav a,
+    .navigation .col-md-1 i{font-size:0.74em;}
+    
+    .item .carousel-caption h2{font-size:2.5em;}
+    .item .carousel-caption p{font-size:0.8em;}
+    .item .carousel-caption button{font-size:0.8em; width:35%;}
+    .item-1 .carousel-caption{bottom:31%;}
+    .item-2 .carousel-caption{bottom:24%;}
+    .item-3 .carousel-caption{bottom:24%;}
+    .item-4 .carousel-caption{bottom:20%}
+    .item-5 .carousel-caption{bottom:32%;width:48%;}
+    .carousel:hover .carousel1-control{display: block;}
+    .carousel:hover .carousel1-indicators{display: block;background: #fff; width:10%; margin: 0 auto;}
+    
+    figure img{width:100%;}
+    .carousel2-item img{width:22.7%;}
+    .about-header>h2,
+    .works-header>h2,
+    .contact>h2{
+        font-size: 2em;
+    }
+      
+    .about-header>p,
+    .works-header>p,
+    .contact>p{
+        font-size: 1em;
+    }
+    
+    .big-footer h5{font-size:1em;}
+    .big-footer p{font-size:0.8em;}
+    .big-footer a{font-size:0.8em;}
+    .big-footer img{width:47%;}
+    .big-footer label{margin: 0;}
+    .big-footer label button{margin-top:13%;}
+}
+@media screen and (max-width:767px){
+    .works{height:900px;}
+}

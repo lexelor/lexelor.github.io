@@ -1,0 +1,100 @@
+@import "fonts-colors.less";
+
+.productPage{
+    .headingPageProducts{
+        margin-top: -20px;
+        padding: 0;
+
+        .versions{
+            height:350px;
+            border: 1.5px dotted @white;
+            background:@antonBlack;
+            padding: 3.5% 2.5%;
+
+            h1{
+                font-size:4.2em;
+                color:@white;
+                line-height: 150%;
+            }
+            h4{
+              max-width: 400px;
+              margin: 0 auto;
+              line-height: 200%;
+                font-size: 1.125em;
+                font-family: courierNew;
+                color: @white;
+            }
+            
+          a{
+            line-height: 500%;
+            color:#62d395;
+          }
+        .under-left:before{
+            border:1px solid #62d395;
+        }    
+            @media screen and (max-width:1024px){
+                height:350px;
+                h1{font-size:4em;}
+                h4{font-size:1em;}
+                h5{font-size:1.1em;}
+            }
+            @media screen and (max-width:769px){
+                height:300px;
+                h1{font-size:3em;}
+                h4{font-size:1em;}
+                h5{font-size:1em;}
+            }
+        }
+    }
+    .pick{
+      h2{
+        padding-bottom: 5%;
+      }
+    p{
+        font-size: 1.1em;
+        font-family: SFUltraLight;
+        line-height: 200%;
+        font-weight: bolder;
+        letter-spacing: .75px;
+        @media screen and (max-width:769px){
+            letter-spacing: .5px;
+        }
+    }
+
+
+    }
+    .infoBlock{
+        .icon-add-circle-1{color:#e85657;}
+        .icon-button-power-2{color:#6b69d2;}
+        .icon-undo{color:#e85657;}
+        .icon-remove-circle-1{color:#796357;}
+        .icon-map-direction{color:#6ca4d6;}
+
+        p{
+            font-family: SFUltraLight;
+            line-height: 200%;
+            font-weight: bolder;
+            letter-spacing: .75px;
+            @media screen and (max-width:769px){
+                letter-spacing: .5px;
+            }
+        }
+
+    }
+    .businessContainer{
+        background: @greyLight;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        h1{
+          font-size: 2em;
+        }
+        a{
+            font-size: 1.75em;
+//            margin-top: 50%;
+            line-height:500%;
+            color:#f4005c;
+            text-decoration: none;
+        }
+
+    }
+}

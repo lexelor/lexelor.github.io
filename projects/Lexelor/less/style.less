@@ -1,0 +1,240 @@
+@import "fonts-colors.less";
+
+html, body {height: 100%;}
+
+h1{font-size:2.25em;}//36px
+h2{font-size:1.875em;}//30px
+h3{font-size:1.5em;}//24px
+h4{font-size:1.125em;}//18px
+h5{font-size:0.875em;}//14px
+h6{font-size:0.75em;}//12px
+
+body {
+    font-family:courierNew;
+    background: @white;
+    padding-top: 100px;
+    @media screen and (max-width:769px){
+        padding-top: 70px;
+    }
+}
+
+.navbar{
+    background: @antonBlack;//#3E3C42
+    box-shadow: none;
+    height:80px;
+    padding-top: 1%;
+    border:none;
+    @media screen and (max-width:769px){
+        height:initial;
+        padding-top: 0;
+    }
+
+
+    .navbar-brand{
+        background: url(../img/lexelor.svg) no-repeat;
+        background-position: center;
+        width:110px;
+        @media screen and (max-width:1024px){
+          width:90px;
+        }
+
+    }
+    .navbar-nav li a:not(.btnSignIn){
+        font-family:courierNew;
+        color: @white;
+        font-size:0.905em;
+        font-weight: 500;
+        &:hover{
+          color:@antonBlue;
+          .transition;
+        }
+    }
+    .navbar-toggle{
+        padding:0;
+        border:none;
+        &:hover{
+            background: none;
+        }
+    }
+    .navbar-nav li .btnSignIn{
+        color:@white;
+        border-radius: 0;
+        width:80px;
+        height:30px;
+        margin-top: 14.5%;
+        border: 1px solid @white;
+        font-size:0.905em;
+        font-weight: 500;
+        font-family:courierNew;
+        padding:0%;
+        padding-top: 3.5%;
+        &:hover{
+            color:@white;
+            background: @antonBlue;
+            border: 1px solid  @antonBlue;
+            .transition;
+            .transitionBg;
+        }
+        @media screen and (max-width:769px){
+            margin-top: 0;
+            padding-top:.5%;
+        }
+    }
+    .navbar-brand, .navbar-nav>li>a {
+      text-shadow: none;
+    }
+}
+
+.scrollDashed{
+    height:200px;
+    border-top:1px dashed @antonBlack;
+    border-bottom:1px dashed @antonBlack;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.headingPage{
+  margin-top: -5.5%;
+  color:@white;
+  height:350px;
+  padding-top:10%;
+  background: @antonBlack;
+  font-size:2.0em;
+  font-weight: 100;
+  margin-bottom: 120px;
+  @media screen and (max-width:769px){
+    height:150px;
+    font-size:.9em;
+    margin-top:-7%;
+    margin-bottom:20px;
+  }
+}
+
+.icon{
+    font-size:2.5em;
+    position: relative;
+    top:17px;
+}
+
+.bottomPadding{
+    margin-bottom: 8%;
+}
+
+a{
+    &:hover{
+        text-decoration: none;
+        color:inherit;
+    }
+}
+.learnMore{
+      font-size:1.2em;
+      color:#f4005c;
+      text-decoration: none;
+}
+.infoBlock{
+    h3{
+        font-size:1.2em;
+        font-family: courierBold;
+    }
+}
+.under-left {
+  position: relative;
+  overflow: hidden;
+}
+
+.under-left:before {
+  content: "";
+  position: absolute;
+  visibility:hidden; 
+  left: 0;
+  right: 100%;
+  bottom: -3px;
+  height: .01px;
+  border: 1px dotted #f4005c;
+          transition: right 0.4s ease-out;
+     -moz-transition: right 0.4s ease-out;
+  -webkit-transition: right 0.4s ease-out;
+          
+}
+
+.under-left:hover:before {
+   right: 0;
+    visibility:visible;     
+}
+
+.footer{
+//    background: @white;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    margin-top:130px;
+    @media screen and (max-width:769px){
+      .footerMenu{
+        ul li{
+          display: block;
+          text-align: center;
+          line-height:400%;
+        }
+      }
+    }
+
+    a{
+        color:@antonBlack;
+        font-size:1.0em;
+        .transition;
+//        font-weight:bolder !important;
+        font-family: courierNew;
+
+        &:hover{
+            text-decoration: none;
+            color:#3c94d3;
+        }
+        .socials{
+            font-size:0.9em;
+        }
+    }
+
+
+    .icon-logo-facebook:hover{
+        color:@iconFb;
+        .transition;
+    }
+    .icon-logo-google-plus-1:hover,
+    .icon-logo-email{
+        color:@iconGp;
+        .transition;
+    }
+
+    .icon-logo-twitter-bird:hover{
+        color:@iconTw;
+        .transition;
+    }
+
+    .icon-logo-linkedin:hover{
+      color:@iconLi;
+      .transition;
+    }
+    .copyright{
+        background: @white;
+        color:darkgray;
+        font-size: 0.8em;
+        font-family: courierNew;
+        .text-underline{
+            text-decoration:underline;
+            font-size: 1em;
+            color: @antonBlack;
+            font-family: courierNew;
+        }
+    }
+    .second{
+        margin-top: 2%;
+    }
+
+}
+
+@media screen and (max-width:769px){
+    .footer .col-sm-12 p,
+    .footer .col-sm-12 ul{
+        text-align:left;
+        font-size: 1.0em;
+    }
+
+}

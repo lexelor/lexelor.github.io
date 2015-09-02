@@ -1,0 +1,143 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.productPage .headingPageProducts {
+  margin-top: -20px;
+  padding: 0;
+}
+.productPage .headingPageProducts .versions {
+  height: 350px;
+  border: 1.5px dotted #ffffff;
+  background: #3e3c42;
+  padding: 3.5% 2.5%;
+}
+.productPage .headingPageProducts .versions h1 {
+  font-size: 4.2em;
+  color: #ffffff;
+  line-height: 150%;
+}
+.productPage .headingPageProducts .versions h4 {
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 200%;
+  font-size: 1.125em;
+  font-family: courierNew;
+  color: #ffffff;
+}
+.productPage .headingPageProducts .versions a {
+  line-height: 500%;
+  color: #62d395;
+}
+.productPage .headingPageProducts .versions .under-left:before {
+  border: 1px solid #62d395;
+}
+@media screen and (max-width: 1024px) {
+  .productPage .headingPageProducts .versions {
+    height: 350px;
+  }
+  .productPage .headingPageProducts .versions h1 {
+    font-size: 4em;
+  }
+  .productPage .headingPageProducts .versions h4 {
+    font-size: 1em;
+  }
+  .productPage .headingPageProducts .versions h5 {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 769px) {
+  .productPage .headingPageProducts .versions {
+    height: 300px;
+  }
+  .productPage .headingPageProducts .versions h1 {
+    font-size: 3em;
+  }
+  .productPage .headingPageProducts .versions h4 {
+    font-size: 1em;
+  }
+  .productPage .headingPageProducts .versions h5 {
+    font-size: 1em;
+  }
+}
+.productPage .pick h2 {
+  padding-bottom: 5%;
+}
+.productPage .pick p {
+  font-size: 1.1em;
+  font-family: SFUltraLight;
+  line-height: 200%;
+  font-weight: bolder;
+  letter-spacing: .75px;
+}
+@media screen and (max-width: 769px) {
+  .productPage .pick p {
+    letter-spacing: .5px;
+  }
+}
+.productPage .infoBlock .icon-add-circle-1 {
+  color: #e85657;
+}
+.productPage .infoBlock .icon-button-power-2 {
+  color: #6b69d2;
+}
+.productPage .infoBlock .icon-undo {
+  color: #e85657;
+}
+.productPage .infoBlock .icon-remove-circle-1 {
+  color: #796357;
+}
+.productPage .infoBlock .icon-map-direction {
+  color: #6ca4d6;
+}
+.productPage .infoBlock p {
+  font-family: SFUltraLight;
+  line-height: 200%;
+  font-weight: bolder;
+  letter-spacing: .75px;
+}
+@media screen and (max-width: 769px) {
+  .productPage .infoBlock p {
+    letter-spacing: .5px;
+  }
+}
+.productPage .businessContainer {
+  background: #f7f7f7;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.productPage .businessContainer h1 {
+  font-size: 2em;
+}
+.productPage .businessContainer a {
+  font-size: 1.75em;
+  line-height: 500%;
+  color: #f4005c;
+  text-decoration: none;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'GothaProBla';
+    src: url('fonts/GothaProBla.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBlaIta';
+    src: url('fonts/GothaProBlaIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url('fonts/GothaProBol.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProBolIta';
+    src: url('fonts/GothaProBolIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProIta';
+    src: url('fonts/GothaProIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProLigIta';
+    src: url('fonts/GothaProLigIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProMedIta';
+    src: url('fonts/GothaProMedIta.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url('fonts/GothaProMed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProNar';
+    src: url('fonts/GothaProNar.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProNarBol';
+    src: url('fonts/GothaProNarBol.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProNarMed';
+    src: url('fonts/GothaProNarMed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothaProReg';
+    src: url('fonts/GothaProReg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'socicon-webfont';
+    src: url('fonts/socicon-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

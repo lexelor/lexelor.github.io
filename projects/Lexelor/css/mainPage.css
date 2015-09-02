@@ -1,0 +1,131 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.mainPage .iconThreeContent .iconThree {
+  font-size: 1.5em;
+  vertical-align: text-bottom;
+  position: relative;
+  bottom: -11px;
+}
+.mainPage .iconThreeContent h3 {
+  color: #686868;
+  font-family: courierNew;
+}
+.mainPage .iconThreeContent p {
+  margin-top: 5%;
+  font-family: courierNew;
+  color: #686868;
+  font-size: 0.725em;
+}
+.mainPage .iconThreeContent .icon-check-circle-2 {
+  color: #8fd69c;
+}
+.mainPage .iconThreeContent .icon-undo {
+  color: #e85657;
+}
+.mainPage .iconThreeContent .icon-button-power-2 {
+  color: #9890c7;
+}
+.mainPage .iconThreeContent .icon-map-direction {
+  color: #6ca4d6;
+}
+.mainPage .iconThreeContent .icon-remove-circle-1 {
+  color: #796357;
+}
+.mainPage .iconThreeContent .icon-add-circle-1 {
+  color: #e85657;
+}
+.mainPage .iconThreeContent .icon-bubble-chat-information-2 {
+  font-size: 1em;
+}
+.mainPage .imgContent img {
+  width: 100%;
+}
+.mainPage .imgCaption {
+  margin-top: 12%;
+}
+.mainPage .imgCaption .icon-bubble-chat-information-2 {
+  font-size: 1.8em;
+  color: #1d81e2;
+}
+.mainPage #secondScroll,
+.mainPage #thirdScroll,
+.mainPage #fourthScroll {
+  overflow: hidden;
+}
+.mainPage .scrollContent {
+  margin-top: 3.5%;
+}
+.mainPage .join {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.mainPage .join .bigButton {
+  border-radius: 0;
+  width: 100%;
+  color: #686868;
+  border: 1px solid #303030;
+  font-family: courierNew;
+  background: #ffffff;
+  padding-top: 5%;
+}
+.mainPage .join .bigButton:hover {
+  color: #ffffff;
+  background: #1d81e2;
+  border: 1px solid #1d81e2;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.mainPage .join .bigButton h5 {
+  font-family: courierBold;
+}
+.mainPage .join .bigButton p {
+  font-family: courierNew;
+  font-size: 2.25em;
+}
+@media screen and (max-width: 769px) {
+  .mainPage .join .bigButton p {
+    font-size: 1.25em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainPage .join .bigButton p {
+    font-size: 0.875em;
+  }
+}
+.mainPage a .icon-logo-circle-facebook,
+.mainPage a .icon-logo-circle-google-plus,
+.mainPage a .icon-logo-circle-twitter-bird {
+  font-size: 1.5em;
+}

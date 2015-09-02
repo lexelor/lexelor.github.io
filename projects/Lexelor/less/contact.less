@@ -1,0 +1,74 @@
+@import "fonts-colors.less";
+
+.contactPage{
+    input{
+      border:1px solid @greyDark;
+      border-radius:0;
+      height:42px;
+      &:focus {
+        outline:none;
+        box-shadow: none;
+        background: @antonBlack;
+        color:#fff;
+          .transition;
+        .transitionBg;
+        
+      }
+    }
+    textarea{
+        border:1px solid @greyDark;
+        border-radius:0;
+        &:focus {
+            outline:none;
+            box-shadow: none;
+            background: @antonBlack;
+            color:@white;
+            .transition;
+            .transitionBg;
+        }
+    }
+    label{
+      color: @greyDark;
+      margin-top:3%;
+      font-family: courierNew;
+      font-size: 1.1em;
+      font-weight: 100;
+    }
+    
+    label:not(:first-child){
+      margin-top:3%;
+    }
+
+    h2{
+      font-family: courierNew;
+      font-size: 1.9em;
+      font-weight: 100;
+      line-height: 100%;
+    }
+
+    h3{
+      font-family: courierNew;
+      font-size: 1.3em;
+      font-weight: 100;
+      line-height: 350%;
+    }
+
+    .submit{
+        margin-top: 20px;
+        width:15%;
+        border: none;
+        border-radius:0;
+        background: #3c94d3;
+        color: white;
+        font-family: courierNew;
+        font-size: 1em;
+        &:hover{
+          opacity: .7;
+          .transitionOpacity;
+        }
+        @media screen and (max-width:769px){
+          width:100%;
+          .transitionOpacity;
+        }
+    }
+}

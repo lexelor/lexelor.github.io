@@ -1,0 +1,97 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.careersPage .beginning {
+  background: #f7f7f7;
+  padding: 1%;
+}
+.careersPage .beginning h3 {
+  margin-top: 4%;
+  font-family: courierBold;
+  line-height: 125%;
+}
+.careersPage .beginning p {
+  font-size: 1.2em;
+  line-height: 150%;
+  font-family: SFUltraLight;
+  font-weight: bolder;
+  letter-spacing: .9px;
+}
+@media screen and (max-width: 769px) {
+  .careersPage .beginning p {
+    font-size: 1em;
+    letter-spacing: 0px;
+  }
+}
+.careersPage .pirate-container svg {
+  width: 50%;
+  height: 250px;
+}
+.careersPage .work {
+  background: #ffffff;
+  margin-top: 2%;
+}
+.careersPage .work .getTo p {
+  margin-top: 1.2%;
+}
+@media screen and (max-width: 1024px) {
+  .careersPage .work .branchSales {
+    text-align: left;
+  }
+}
+.careersPage .work .branchSales h2,
+.careersPage .work .branchDeveloping h2 {
+  font-size: 1.6em;
+  border-bottom: 1px dotted #252427;
+  padding-bottom: 1.5%;
+  margin-bottom: 8%;
+}
+.careersPage .work li {
+  font-family: SFUltraLight;
+  font-weight: bolder;
+  letter-spacing: .75px;
+  margin-bottom: 5%;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 769px) {
+  .careersPage .work li {
+    letter-spacing: .5px;
+  }
+}
+.careersPage .work li a {
+  font-size: 1.135em;
+  font-family: SFThin;
+  color: #f4005c;
+  display: inline-block;
+}
+.careersPage .footer {
+  margin-top: 0;
+  border: 0;
+}

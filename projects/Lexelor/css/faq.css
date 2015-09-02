@@ -1,0 +1,58 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.faqPage .leftMenu h3,
+.faqPage .leftMenu a {
+  font-family: SFUltraLight;
+  font-weight: bolder;
+  letter-spacing: .95px;
+  font-size: 1.15em;
+}
+.faqPage .leftMenu a {
+  color: #f4005c;
+}
+.faqPage .leftMenu a:hover {
+  text-decoration: none;
+}
+.faqPage .faqAns h1 {
+  font-size: 2em;
+}
+.faqPage .faqAns p {
+  font-size: 1.1em;
+  font-family: SFUltraLight;
+  line-height: 210%;
+  font-weight: bolder;
+  letter-spacing: .75px;
+}
+@media screen and (max-width: 769px) {
+  .faqPage .faqAns p {
+    letter-spacing: 0px;
+  }
+}

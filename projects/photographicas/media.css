@@ -1,0 +1,278 @@
+@media (max-width: 1366px) {
+    #landing-page nav {
+        width: 20%;
+    }
+
+    #evolving nav {
+        width: 23%
+    }
+
+    .heading {
+        width: 52.11847133757962%;
+    }
+
+    #mobile-pages #page1 .nav {
+        width: 65%;
+        font-size: 0.8em;
+    }
+
+    .headbar ul {
+        width: 50%;
+        font-size: 0.9em;
+    }
+
+    #mobile-pages #page2 img {
+        width: 100%;
+    }
+
+    #mobile-pages #page3 img {
+        width: 100%;
+    }
+
+    #mobile-pages #page3 img:nth-child(2),
+    #mobile-pages #page3 img:nth-child(3) {
+        width: 48%;
+    }
+
+    #mobile-pages #page4 img {
+        width: 20%;
+        margin-left: -4.9%;
+    }
+
+    #mobile-pages #page4 img:first-child {
+        width: 15%;
+        position: relative;
+        top: 120px;
+        left: 78%;
+    }
+
+    #mobile-pages #page5 img {
+        width: 20.3%;
+    }
+
+    #mobile-pages #page5 img:last-child {
+        width: 15%;
+        position: relative;
+        top: 390px;
+    }
+
+    #mobile-pages #page6,
+    #mobile-pages #page7 {
+        font-size: 0.8em;
+    }
+
+    #evolving .banner img:first-child {
+        position: relative;
+        width: 2%;
+        left: 92%;
+        top: 410px;
+    }
+
+    #mobile-pages #page1,
+    #mobile-pages #page2,
+    #mobile-pages #page3,
+    #mobile-pages #page4,
+    #mobile-pages #page5,
+    #mobile-pages #page6,
+    #mobile-pages #page7 {
+        height: 436px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #evolving nav {
+        width: 24%
+    }
+
+    #evolving .banner img:first-child {
+        top: 360px;
+    }
+
+    .heading {
+        width: 56.11847133757962%;
+    }
+
+    #mobile-pages #page1 .nav {
+        width: 69%;
+        font-size: 0.8em;
+    }
+
+    .headbar ul {
+        width: 50%;
+        font-size: 0.8em;
+    }
+
+    #mobile-pages #page4 img:first-child {
+        top: 110px;
+    }
+
+    #mobile-pages #page5 img:last-child {
+        top: 360px;
+    }
+
+    #mobile-pages #page1,
+    #mobile-pages #page2,
+    #mobile-pages #page3,
+    #mobile-pages #page4,
+    #mobile-pages #page5,
+    #mobile-pages #page6,
+    #mobile-pages #page7 {
+        height: 536px;
+    }
+}
+
+@media (max-width: 1152px) {
+    #landing-page nav {
+        width: 21%;
+    }
+
+    #contacts .hello .sumbitbtn {
+        height: 20px;
+        font-size: .7em;
+    }
+
+    #evolving nav {
+        width: 27%
+    }
+
+    .personaly {
+        margin-top: -250px;
+    }
+
+    #evolving .contacts .hello .sumbitbtn {
+        height: 20px;
+        font-size: .7em;
+    }
+
+    #evolving .banner img:first-child {
+        top: 390px;
+    }
+
+    .heading {
+        width: 63.11847133757962%;
+    }
+
+    #mobile-pages #page1 .nav {
+        width: 69%;
+        font-size: 0.68em;
+    }
+
+    #mobile-pages #page1 h1 {
+        font-size: 1em;
+        margin-top: 150px;
+    }
+
+    #mobile-pages #page1,
+    #mobile-pages #page2,
+    #mobile-pages #page3,
+    #mobile-pages #page4,
+    #mobile-pages #page5,
+    #mobile-pages #page6,
+    #mobile-pages #page7 {
+        height: 436px;
+    }
+
+    .headbar ul {
+        width: 52%;
+        font-size: 0.8em;
+    }
+
+    #mobile-pages #page4 img:first-child {
+        top: 100px;
+    }
+
+    #mobile-pages #page5 img:last-child {
+        top: 320px;
+    }
+
+    #mobile-pages #page6,
+    #mobile-pages #page7 {
+        font-size: 0.5em;
+    }
+
+    #mobile-pages #page7 .hello .sumbitbtn {
+        height: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #landing-page nav {
+        width: 23%;
+    }
+
+    #contacts {
+        font-size: 90%;
+    }
+
+    #evolving nav {
+        font-size: 90%;
+    }
+
+    .personaly {
+        margin-top: -180px;
+    }
+
+    #evolving .contacts {
+        font-size: 90%;
+    }
+
+    .heading {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #mobile-pages #page1 .nav {
+        width: 77%;
+        font-size: 0.68em;
+    }
+
+    #mobile-pages #page1 h1 {
+        font-size: 1em;
+        margin-top: 150px;
+    }
+
+    #mobile-pages #page1,
+    #mobile-pages #page2,
+    #mobile-pages #page3,
+    #mobile-pages #page4,
+    #mobile-pages #page5,
+    #mobile-pages #page6,
+    #mobile-pages #page7 {
+        height: 396px;
+    }
+
+    .headbar ul {
+        width: 58%;
+        font-size: 0.8em !important;
+    }
+
+    #mobile-pages #page4 {
+        font-size: 70%
+    }
+
+    #mobile-pages #page4 img:first-child {
+        top: 90px;
+    }
+
+    #mobile-pages #page4 img {
+        position: absolute;
+        margin-left: -4.9%;
+    }
+
+    #mobile-pages #page5 img:last-child {
+        top: 280px;
+    }
+
+    #mobile-pages #page6 .office,
+    #mobile-pages #page6 .social,
+    #mobile-pages #page7 .hello,
+    #mobile-pages #page7 .form1,
+    #mobile-pages #page7 .form2,
+    #mobile-pages #page7 .sumitbutton {
+        font-size: 1em;
+    }
+
+    #mobile-pages #page7 .hello .sumbitbtn {
+        height: 20px;
+    }
+}

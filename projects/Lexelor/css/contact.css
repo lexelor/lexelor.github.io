@@ -1,0 +1,109 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.contactPage input {
+  border: 1px solid #686868;
+  border-radius: 0;
+  height: 42px;
+}
+.contactPage input:focus {
+  outline: none;
+  box-shadow: none;
+  background: #3e3c42;
+  color: #fff;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.contactPage textarea {
+  border: 1px solid #686868;
+  border-radius: 0;
+}
+.contactPage textarea:focus {
+  outline: none;
+  box-shadow: none;
+  background: #3e3c42;
+  color: #ffffff;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.contactPage label {
+  color: #686868;
+  margin-top: 3%;
+  font-family: courierNew;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+.contactPage label:not(:first-child) {
+  margin-top: 3%;
+}
+.contactPage h2 {
+  font-family: courierNew;
+  font-size: 1.9em;
+  font-weight: 100;
+  line-height: 100%;
+}
+.contactPage h3 {
+  font-family: courierNew;
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 350%;
+}
+.contactPage .submit {
+  margin-top: 20px;
+  width: 15%;
+  border: none;
+  border-radius: 0;
+  background: #3c94d3;
+  color: white;
+  font-family: courierNew;
+  font-size: 1em;
+}
+.contactPage .submit:hover {
+  opacity: .7;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+@media screen and (max-width: 769px) {
+  .contactPage .submit {
+    width: 100%;
+    transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+  }
+}

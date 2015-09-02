@@ -1,0 +1,36 @@
+@import "fonts-colors.less";
+
+.faqPage{
+    .leftMenu{
+
+        h3,a{
+            font-family: SFUltraLight;
+            font-weight: bolder;
+            letter-spacing: .95px;
+            font-size:1.15em;
+        }
+        a{
+            color:@pinklink;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .faqAns{
+        h1{
+            font-size:2em;
+        }
+        p{
+            font-size: 1.1em;
+            font-family: SFUltraLight;
+            line-height: 210%;
+            font-weight: bolder;
+            letter-spacing: .75px;
+            @media screen and (max-width:769px){
+                letter-spacing: 0px;
+            }
+
+        }
+    }
+}

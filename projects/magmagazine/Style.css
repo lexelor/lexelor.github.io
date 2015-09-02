@@ -1,0 +1,281 @@
+body{
+    margin:0 auto;
+    max-width: 100%;
+    min-width: 1158px;
+    background-color: lightgray;
+}
+hr{
+    width:90%;
+}
+/*Topbar*/
+#topbar{
+    background:black;
+    width:100%;
+    height:52px;
+    color:white;
+}
+#topbar a{
+    text-decoration:none;
+    color:white;
+}
+#topbar a:hover{
+    text-decoration:underline;
+    color:white;
+}
+#topbar .menu{
+    display:inline;
+    float:left;
+    margin-left:5%;
+    margin-top:15px;
+    font-size:1em;
+}
+#topbar .circle {
+    margin-right:5%;
+}
+#topbar .circle .circles {
+    width: 32px;
+    height: 32px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: inline;
+    float:right;
+    margin-top:9px;;
+    margin-right:1%;
+}
+/*Logo*/
+#logo{
+    text-align: center;
+}
+#logo h1{
+    font-size: 6.250em;
+    text-transform: uppercase;
+//margin-bottom:-1%;
+}
+#logo h2{
+    font-size:1.250em;
+}
+/*Top Navigation*/
+#topnavigation{
+    text-align: center;
+    text-transform: uppercase;
+}
+#topnavigation a{
+    text-decoration: none;
+    color: black;
+    margin-left:4%;
+}
+#topnavigation a:hover{
+    text-decoration: none;
+    color: #999999;
+    margin-left:4%;
+}
+/*Featured*/
+#Featured{
+    margin-left:5%;
+    margin-right:5%;
+}
+.hleft{
+    float:left;
+    width:35.4%;
+}
+.leftpic{
+    width:100%;
+    height:320px;
+    color:white;
+    background-color:#333333;
+    text-align:center;
+    font-size:2.250em;
+}
+.hleft h1{
+    font-size:1.375em;
+}
+.hleft p{
+    font-size:1em;
+}
+
+.hright{
+    float:right;
+    width:45%;
+
+}
+.rightpic{
+    width:100px;
+    height:100px;
+    color:white;
+    background-color:#333333;
+    text-align:center;
+    border:1px solid #999999;
+    font-size:1em;
+    float:left;
+    margin-right:2%;
+}
+.rightpic p{
+    margin-top:40%
+}
+.hright h1{
+    font-size:1.375em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hright p{
+    font-size:1em;
+}
+/*Content*/
+#content{
+    margin-left:5%;
+    margin-right:5%;
+}
+#content hr{
+    margin-left:0;
+}
+/*left-column*/
+.leftcolumn{
+    float:left;
+    width:65%;
+//border:1px solid green;
+    margin-top:0;
+    height:600px;
+}
+.leftcolumn a{
+    color: #982115;
+    text-decoration:none;
+    float:right;
+    font-size:0.688em;
+}
+.leftcolumn h1{
+    font-size:0.75em;
+}
+.leftcolumn p{
+    font-size:0.75em;
+}
+.left-column-header-first, .left-column-header-second{
+    font-size:1em;
+}
+.leftcolumnfirstpic, .leftcolumnsecondpic{
+    width:60px;
+    height:60px;
+    background-color:#333333;
+    color:white;
+    text-align:center;
+    font-size:1em;
+    float:left;
+    margin-right:2%;
+}
+.leftcolumnfirst{
+    float:left;
+    width:48%;
+    margin-right:2%;
+}
+.leftcolumnsecond{
+    float:left;
+    width:48%
+}
+
+.leftcolumnthirdmenu{
+    width:100%;
+
+}
+.leftcolumnthirdmenu hr{
+    width:100%;
+}
+.leftcolumnthirdmenu a{
+    color: white;
+    font-size:0.95em;
+    background:black;
+    float:left;
+    text-transform: uppercase;
+    margin-right: 0.3%;
+    padding: 1%;
+}
+.leftcolumnthirdmenusecond{
+    clear:both;
+}
+.tabs{
+    display:inline-block;
+    width:18%;
+    float:left;
+    margin-right:5%;
+}
+.tabs h1{
+    color:#982115;
+    font-size:0.95em;
+}
+.tabs a{
+    float:left;
+
+}
+.tabspic{
+    width:122px;
+    height:90px;
+    color: white;
+    background-color:#333333;
+}
+/*right-column*/
+.rightcolumn{
+    float:right;
+    width:35%;
+//border:1px solid red;
+    margin-top: -0.5%;
+}
+.rightcolumn a{
+    color: #982115;
+    text-decoration:none;
+    display:block;
+    font-size:1em;
+}
+.rightcolumn h1{
+    font-size:1.2em;
+}
+.rightcolumnleftfirst{
+    float:left;
+    width:50%
+}
+.rightcolumnleftfirstpic{
+    width:160px;
+    height:600px;
+    background-color:#333333;
+    color:white;
+    text-align:center;
+    font-size:1em;
+    float:left;
+    margin-right:2%;
+}
+.rightcolumnleftsecond{
+    float:left;
+    width:50%
+}
+/*Footer*/
+#footer{
+    margin-left:5%;
+    margin-right:5%;
+
+}
+.footerc h1{
+    font-size:1em;
+}
+.footerc a{
+    color: #982115;
+    text-decoration:none;
+    display:block;
+    font-size:1em;
+}
+.footerc{
+    display:inline-block;
+    width:18%;
+    float:left;
+    margin-bottom: 1%;
+}
+/*Copyright*/
+#copyright{
+    margin-left:5%;
+    margin-right:5%;
+    height:52px;
+}
+.copyleft{
+    float:left;
+}
+.copyright{
+    float:right;
+}

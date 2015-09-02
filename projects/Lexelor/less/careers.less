@@ -1,0 +1,80 @@
+@import "fonts-colors.less";
+
+.careersPage{
+    .beginning{
+        background: @greyLight;
+        padding: 1%;
+        h3{
+            margin-top: 4%;
+            font-family: courierBold;
+            line-height: 125%;
+        }
+        p{
+            font-size: 1.2em;
+            line-height: 150%;
+            font-family: SFUltraLight;
+            font-weight: bolder;
+            letter-spacing: .9px;
+            @media screen and (max-width:769px){
+                font-size: 1em;
+                letter-spacing: 0px;
+            }
+        }
+    }
+    
+    
+    .pirate-container{
+        svg{
+            width: 50%;
+            height: 250px;
+        }
+    }
+    
+    
+    .work{
+        background: @white;
+        margin-top: 2%;
+        .getTo{
+            p{
+                margin-top: 1.2%;
+            }
+        }
+        .branchSales{
+            @media screen and (max-width:1024px){
+                text-align: left;
+            }
+        }
+        .branchSales, .branchDeveloping{
+            h2{
+              font-size: 1.6em;
+                border-bottom: 1px dotted darken(@antonBlack, 10%);
+                padding-bottom: 1.5%;
+                margin-bottom: 8%;
+            }
+        }
+
+        li{
+            font-family: SFUltraLight;
+            font-weight: bolder;
+            letter-spacing: .75px;
+            margin-bottom: 5%;
+            font-size: 1.2em;
+            @media screen and (max-width:769px){
+                letter-spacing: .5px;
+            }
+            a{
+                font-size: 1.135em;
+                font-family: SFThin;
+                color: @pinklink;
+                display: inline-block;
+            }
+        }
+        
+    }
+    
+    
+    .footer{
+        margin-top: 0;
+        border: 0;
+    }
+}

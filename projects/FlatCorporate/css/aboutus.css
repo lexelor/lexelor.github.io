@@ -1,0 +1,51 @@
+#team{
+    height:514px;
+    text-align: center;
+}
+#team h2{
+    font-family: 'Lato', sans-serif;
+    color:  #16a085;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+#team .teamdiv{
+    width: 960px;
+    height: 158px;
+    background-color: #dbdbdb;
+}
+#team p{
+    font-family: 'Lato', sans-serif;
+    color:  #7f8c8d;
+    font-size: 16px; 
+    font-weight:bold;
+}
+
+#mission{
+    height: 330px;
+    background-color: #ecf0f1;
+    text-align: center
+}
+#mission article{
+    display: inline-block;
+    width:300px;
+    height: 255px;
+    vertical-align: top;
+}
+#mission article:nth-child(2){
+    margin-right:30px;
+    margin-left: 30px;
+}
+#mission article h2{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color:  #2c3e50;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+#mission article p{
+    font-family: 'Lato', sans-serif;
+    color:  #7f8c8d;
+    font-size: 16px;
+    font-weight:bold;
+}

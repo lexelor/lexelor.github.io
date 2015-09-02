@@ -1,0 +1,46 @@
+@media screen and (max-width:1200px),
+       screen and (min-width:1200px){
+    #header nav{
+        width:40%
+    }
+    nav ul li{
+        margin-right:5%;
+    }
+    .wrapper2 h1{
+        margin-top: 15%;
+        font-size: 2.5em;  
+    }
+    .wrapper2 h2{
+        font-size: 1.875em; 
+    }
+    .wrapper2 p{
+        width:47%;
+    }
+    #work .work-gallery img:not(:first-child){
+        margin-left: 7%;
+    }
+    .team-gallery .team-member{
+        width: 210px;
+        height: 210px;
+        margin-top: 5%;
+        margin-bottom:5%;
+        margin-right:0%;
+        margin-left:9%;
+    }
+    .team-gallery .team-member img{
+        width:30%;
+    }
+    .team-gallery .team-member h3{
+        font-size: 1em; 
+    }
+    .team-gallery .team-member p{
+        font-size: 0.75em;
+    }
+    .team-gallery .team-member .links{
+        font-size:1em;
+    }
+
+    #contacts contacts-maps img{
+       width:100%;
+    }    
+}

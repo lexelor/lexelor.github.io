@@ -1,0 +1,58 @@
+
+.content{
+    height:779px;
+}
+#info{
+    width:440px;
+    float: left;
+}
+#info h2{
+    font-family: 'Lato', sans-serif;
+    color:  #16a085;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+    width:298px;
+}
+#info p,
+#forms input,
+#forms textarea{
+    font-family: 'Lato', sans-serif;
+    color:  #7f8c8d;
+    font-size: 16px; 
+    font-weight:bold;
+    width:440px;
+}
+
+#forms{
+    width:481px;
+    float:left;
+    padding:25px 0 25px 25px;
+}
+#forms input{
+    background-color: #ecf0f1;
+    width: 459px;
+    height: 40px;
+    padding-left:10px;
+    text-align: top;
+    border:none;
+    margin-bottom: 10px;
+}
+#forms textarea{
+    background-color:  #ecf0f1;
+    width: 457px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    border:none;
+}
+#forms button{
+    background-color:  rgba(255, 255, 255, 0.6);
+    width: 115px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    color:  #16a085;
+    font-size: 12px; 
+    font-weight:bold;
+    border:1px solid #16a085;
+}

@@ -1,0 +1,217 @@
+body{margin:0 auto;width:100%;}
+.wrapper{margin:0 10%;}
+.wrapper2{text-align: center;}
+.wrapper2 h1, p, h2{
+    display: inline-block;
+}
+.wrapper2 h1{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-family: GothaProBol;
+    color:  #303030;
+    font-size: 40px;  
+}
+.wrapper2 h2{
+    margin-top: 90px;
+    font-family: GothaProBol;
+    color:  #303030;
+    font-size: 30px; 
+    margin-bottom: 0px;
+}
+.wrapper2 p{
+    font-family: Georgia;
+    color:  #5a5a5a;
+    font-size: 16px;
+    font-style: italic;
+    width:47%;
+}
+/*HEADER*/
+
+#header{
+    height: 102px;
+    width: 100%;
+    background-color: #fff;
+}
+#header img{
+    float:left;
+    margin-top:3.4%;
+}
+#header nav{
+    float:right;
+    width:32%;
+    margin-top:2.4%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25%;
+}
+nav ul li:last-child{
+    display: inline-block;
+    margin-right: 0;
+}
+nav ul li a{
+    text-decoration: none; 
+    font-size:1em;
+    font-family: GothaProReg;
+    color:  #a7a7a7;
+    font-size: 12px; 
+}
+
+/*HERO*/
+
+#hero{
+    background-image: url(img/hero.png);
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero .button{
+    display: inline-block;
+    background-image: url(img/hero-button.png);
+    margin: 100px 48%;
+    background-repeat: no-repeat
+}
+#hero .button img{
+    opacity: .6;
+    box-shadow: 0 0 0 10px #ffffff;
+    border-radius: 40px;
+}
+
+/*Gallery*/
+#work p{
+    margin-bottom: 150px;
+}
+#work .work-gallery img{
+    width:27.77%;
+}
+#work .work-gallery .first-row,
+#work .work-gallery .second-row{
+    margin-bottom: 8%;
+}
+#work .work-gallery img:not(:first-child){
+    margin-left: 8%;
+}
+
+/*Team*/
+#team{
+    background-color: #f3f3f3;
+    background-size:cover;
+    margin-top: 70px;
+}
+#team h2{
+    margin-top:60px;
+}
+.team-gallery .team-member{
+    display:inline-block;
+    width: 210px;
+    height: 210px;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px 0px rgba(0, 1, 1, 0.2);
+    margin-top: 100px;
+}
+.team-gallery .team-member{
+    margin-right:8.8%
+}
+.team-gallery .team-member img{
+    margin-left:30%;
+    margin-top: 5%;
+}
+.team-gallery .team-member h3{
+    font-family: GothaProBol;
+    color:  #303030;
+    font-size: 16px; 
+    text-align: center;
+    margin-bottom: 0;
+}
+.team-gallery .team-member p{
+    font-family: Georgia;
+    color:  #303030;
+    font-size: 12px;
+    font-style: italic;
+    margin-left:25%;
+    margin-bottom: 0;
+}
+.team-gallery .team-member a{
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.team-gallery .team-member .links{
+    font-style:normal;
+    font-family: socicon-webfont;
+    font-size:16px;
+    margin-left: 41%;
+}
+/*Contacts*/
+#contacts{
+    height:570px;
+}
+#contacts h2{
+    margin-bottom:50px;
+}
+#contacts .contacts-maps{
+    width:39.7%;
+    float:left;
+}
+#contacts .contacts-maps p{
+    width:39%;
+    float:left;
+}
+#contacts .contacts-maps img{
+    float:left;
+    box-shadow: 1px 2px 5px 0px rgba(0, 1, 1, 0.25);
+}
+#contacts .contacts-feedback{
+    float:right;
+    width:60%;
+}
+#contacts .contacts-feedback p{
+    width:52%;
+    float:left;
+}
+#contacts .contacts-feedback textarea{
+    font-size: 19px;
+    float:left;
+    font-family: Georgia;
+    padding:20px;
+}
+#contacts .contacts-feedback input{
+    float:left;
+    width:60%;
+    height:30px;
+    margin-top: 15px;
+    margin-right: 5%; 
+}
+#contacts .contacts-feedback .send-button{
+    background-color:  #6995a9;
+    float:left;
+    width: 205px;
+    height: ;
+    color: #fff;
+    margin-top: 15px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 1, 1, 0.25);
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+    font-size:16px;
+}
+
+/*footer*/
+#footer{
+    background-color: #4f4f4f;
+    margin-top: 40px;
+    height:60px;
+    padding-top: 10px;
+    color:#6e6e6e;
+    font-family: Georgia;
+    font-size:16px;
+}
+
+#footer span{
+    color: #949494
+        
+}
+#footer .copyright{
+    float:right;
+}

@@ -1,0 +1,17 @@
+.header-upper .right i:hover{color:white;}
+.header-upper .fa-facebook:hover{background-color: #4668b3;}
+.header-upper .fa-google-plus:hover{background-color: #de5745;}
+.header-upper .fa-twitter:hover{background-color: #2fbbed;}
+.header-upper .fa-pinterest-p:hover{background-color: #d94348;}
+.header-upper .fa-dribbble:hover{background-color: #3079ff;}
+.header-upper .fa-behance:hover{background-color: #eb6397;}
+.header-upper a:hover{color:#00bc9c;}
+.navbar-nav a:hover{color:#00bc9c;}
+.carousel:hover .carousel1-control{display: block;}
+.carousel:hover .carousel1-indicators{display: block; bottom:-1%;background: #fff; width:6%; margin: 0 auto;}
+.carousel1-control .glyphicon-chevron-left:hover,
+.carousel1-control .glyphicon-chevron-right:hover{color:#00bc9c;}
+.about-content p:hover{font-weight:300;}
+.big-footer a:hover{color:#00bc9c;}
+.small-footer a:hover{color:#00bc9c; text-decoration: none}
+body .btn:hover{color:#fff;}

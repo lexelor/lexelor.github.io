@@ -1,0 +1,25 @@
+.blogPost{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:  #16a085;
+    font-weight: bold;
+}
+.blogPost h2{
+    font-size: 40px;
+}
+.blogPost p{
+    color:  #95a5a6;
+    font-size: 16px; 
+}
+.blogPost .postDate{
+    font-size: 14px; 
+}
+.blogPost button{
+    width: 225px;
+    height: 35px;
+    color:  #16a085;
+    font-size: 12px; 
+    background: none;
+    border: 1px solid #16a085;
+    margin-bottom: 100px;
+}

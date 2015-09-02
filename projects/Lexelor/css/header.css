@@ -1,0 +1,101 @@
+header {
+  margin-top: -100px;
+  height: 100vh;
+  background: url(../img/BEST1.svg);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position:center 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+@media screen and (max-width:769px){
+  header{
+    background-size: 80%;
+    margin-top: -70px;
+  }
+}
+@media screen and (max-height:460px){
+  header{
+    background-size: 50%;
+  }
+}
+.mainPage .firstScroll-heading {
+  font-family: courierBold;
+  font-weight: 100;
+  position: relative;
+  top: 33%;
+}
+@media screen and (max-width: 769px) {
+  .mainPage .firstScroll-heading {
+    top: 28%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainPage .firstScroll-heading {
+    top: 15%;
+  }
+}
+.mainPage .signButton {
+  border-radius: 0;
+  width: 10%;
+  background: none;
+  font-family: courierBold;
+  background: #ffffff;
+  position: relative;
+  top: 35%;
+}
+@media screen and (max-width: 769x) {
+  .mainPage .signButton {
+    width: 85%;
+    top: 20%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainPage .signButton {
+    width: 40%;
+    top: 20%;
+  }
+}
+.mainPage .signButton:hover {
+  color: #ffffff;
+  background: #1d81e2;
+  border: 1px solid #1d81e2;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.mainPage .btnArrows {
+  width: 45px;
+  height: 50px;
+  margin-top: 2.9%;
+  position: relative;
+  top: 33%;
+}
+.mainPage .iconThreeContent .iconThree {
+  font-size: 1.5em;
+  vertical-align: text-bottom;
+  position: relative;
+  bottom: -11px;
+}
+.mainPage .iconThreeContent h3 {
+  font-family: courierBold;
+}

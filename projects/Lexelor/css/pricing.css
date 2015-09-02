@@ -1,0 +1,155 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+@font-face {
+  font-family: SF;
+  src: url(../fonts/SF.otf);
+}
+@font-face {
+  font-family: SFUltraLight;
+  src: url(../fonts/SFUltraLight.ttf);
+}
+@font-face {
+  font-family: SFThin;
+  src: url(../fonts/SFThin.ttf);
+}
+@font-face {
+  font-family: SFRegular;
+  src: url(../fonts/SFRegular.ttf);
+}
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFBold.ttf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.pricingPage #pricing {
+  padding-top: 3%;
+  padding-bottom: 20%;
+}
+.pricingPage #pricing .green {
+  color: #62d395;
+}
+.pricingPage #pricing p {
+  font-size: .8em;
+}
+.pricingPage #pricing h2 {
+  font-family: courierNew;
+  font-size: 1.35em;
+  line-height: 250%;
+  font-weight: 100;
+}
+@media screen and (max-width: 1024px) {
+  .pricingPage #pricing {
+    padding-bottom: 45%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .pricingPage #pricing {
+    padding-bottom: 35%;
+  }
+  .pricingPage #pricing p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pricingPage #pricing {
+    padding-bottom: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .pricingPage #pricing {
+    padding-bottom: 90%;
+  }
+}
+.pricingPage .fee {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 10%;
+  background-color: #f7f7f7;
+}
+.pricingPage .fee h2 {
+  font-family: courierNew;
+  font-size: 1.75em;
+  line-height: 200%;
+  font-weight: 100;
+}
+@media screen and (max-width: 769px) {
+  .pricingPage .fee h2 {
+    font-size: 1.5em;
+  }
+}
+.pricingPage .infoBlock p {
+  font-family: SFUltraLight;
+  line-height: 200%;
+  font-weight: bolder;
+  letter-spacing: .75px;
+}
+@media screen and (max-width: 769px) {
+  .pricingPage .infoBlock p {
+    letter-spacing: .5px;
+  }
+}
+.pricingPage .bigInfoBlock {
+  margin-bottom: 5%;
+}
+.pricingPage .bigInfoBlock .icon-add-circle-1 {
+  color: #e85657;
+}
+.pricingPage .bigInfoBlock .icon-check-circle-2 {
+  color: #8fd69c;
+}
+.pricingPage .bigInfoBlock .icon-undo {
+  color: #6b69d2;
+}
+.pricingPage .bigInfoBlock .icon-remove-circle-1 {
+  color: #796357;
+}
+.pricingPage .bigInfoBlock h3 {
+  font-family: courierNew;
+  margin-bottom: 5%;
+}
+.pricingPage .bigInfoBlock p {
+  font-family: SFUltraLight;
+  line-height: 200%;
+  font-weight: bolder;
+  letter-spacing: .75px;
+}
+@media screen and (max-width: 769px) {
+  .pricingPage .bigInfoBlock p {
+    letter-spacing: .5px;
+  }
+}
+.pricingPage .bigInfoBlock .rightBlock {
+  background: #e6f2e8;
+  padding: 40px;
+}
+.pricingPage .bigInfoBlock .rightBlock div {
+  margin: 20% 0;
+  border-bottom: 1px dotted #303030;
+}
+.pricingPage .more {
+  margin-top: 10% 0;
+  margin-bottom: 10% 0;
+}
+.pricingPage .more .moreUnderline {
+  border-bottom: 1px dashed #ccc;
+}
+.pricingPage .more .moreUnderline h3 {
+  font-family: SFUltraLight;
+  line-height: 200%;
+  font-weight: bolder;
+  letter-spacing: .75px;
+  font-size: 1.1em;
+  padding: 1em 0;
+}
+@media screen and (max-width: 769px) {
+  .pricingPage .more .moreUnderline h3 {
+    letter-spacing: .5px;
+  }
+}

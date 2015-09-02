@@ -1,0 +1,116 @@
+@import "fonts-colors.less";
+.navbar{
+  background: @white;
+  .navbar-brand{
+      background: url(../img/logo_sign_in.svg) no-repeat;
+      background-position: center;
+      width:150px;
+      color:@white;
+      @media screen and (max-width:1024px){
+        width:130px;
+      }
+  }
+}
+.signPage{
+  background:@white;
+    header {
+    margin-top: -100px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+//    text-align: center;
+      @media screen and (max-width:769px){
+        margin-top: -140px;
+      }
+      @media screen and (max-height:560px){
+        margin-top: -40px;
+      }
+      h1{
+        color:@black;
+      }
+
+      .form-group{
+        label{
+          width:100%;
+          color: @greyDark;
+          padding:2%;
+          .text-right{
+            float:right;
+          }
+          a{
+            color:@greyDark;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+        .forgot{
+          color:@black;
+        }
+        input{
+          border:none;
+          border-bottom: 1px solid lighten(@greyDark,50%);
+          border-radius:0;
+          height:60px;
+            box-shadow: none;
+          &:focus {
+            outline:none;
+            box-shadow: none;
+          }
+        }
+
+      }
+      .hasFocus{
+        border-left:3px solid @blueLight;
+        background: lighten(@greyLight,1%);
+        input{
+            background: lighten(@greyLight,1%);
+        }
+        .transitionBorder;
+      }
+      .facebook{
+        @media screen and (max-width:365px){
+          width:100%;
+          text-align: left;
+        }
+        .icon-logo-circle-facebook{
+          font-size:2em;
+          position: relative;
+          top:9px;
+        }
+      }
+      .submit{
+        width:100%;
+        height:60px;
+        border: none;
+        border-radius:0;
+        background: #1d81e2;
+        color: white;
+        font-family: courierNew;
+        font-size: 1.6em;
+        &:hover{
+          opacity: .7;
+          .transitionOpacity;
+        }
+      }
+  }
+  .passHelp{
+    margin-top: 5%;
+  }
+
+}

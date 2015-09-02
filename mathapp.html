@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MATH</title>
+    <!-- Bootstrap -->
+    <link href="projects/Simple_test_v2/css/bootstrap.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>   
+    <div class="container">
+        <div class="row">
+            <div class="tabs">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab-1" data-toggle="tab">Settings</a></li>
+                    <li><a href="#tab-2" data-toggle="tab">MATH!!!!!!</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="tab-1">
+                      <h3>Hello! This is setup page!</h3>
+                      <p>Please select which operation you wish to do!</p>
+                      <input type="checkbox" name="checkbox" id="sum">
+                      <label for="sum">Sum</label>
+
+                      <input type="checkbox" name="checkbox" id="substraction">
+                      <label for="substraction">Substraction</label>
+
+                      <input type="checkbox" name="checkbox" id="multiplication">
+                      <label for="multiplication">Multiplication</label>
+
+                      <input type="checkbox" name="checkbox" id="division">
+                      <label for="division">Division</label> 
+                    </div>
+                    <div class="tab-pane fade" id="tab-2">
+                      <h3>Hello! here we will test what you choose!</h3>
+                      <p>Below will be generated simple equation and all you need is to answer</p>
+                      <p>In case of division please enter value rounded to a number upward to it's nearest integer </p>
+                      <p>Quantity of  right answers: <span id="counterr"></span> </p>
+                      <p>Quantity of  wrong answers: <span id="counterw"></span> </p>
+                      <p>What will be the answer for: <span id="generatedEquation"></span></p>
+                      
+                      <label for="answer">Your answer here</label>
+                      <input type="text" id="answer" name="answer"/>
+                      <label for="subscribe-field"></label>
+                      <input type="submit" value="Submit answer" id="sumbitbutton" name="submitbutton">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="projects/Simple_test_v2/js/bootstrap.js"></script>
+    <script src="projects/Simple_test_v2/js/script.js"></script>
+</body>
+</html>
