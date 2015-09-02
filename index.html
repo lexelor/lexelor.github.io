@@ -7,10 +7,183 @@
   <link rel="stylesheet" href="css/app.css">
   <script src="bower_components/angular/angular.js"></script>
 </head>
-<body>
-  <div ng-init="name='world'">
-	  <p>Hello {{name}}</p>
-		<p>{{2+2}}</p>
-  </div>
-</body>
+	<body>
+<!---->
+<!---->
+     <div class="navbar navbar-inverse navbar-fixed-top">
+           <div class="container">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                       <span class="sr-only">Open navigation</span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                   <a href="#" class="navbar-brand portfolio-logo">AR</a>
+               </div>
+               <div class="collapse navbar-collapse" id="responsive-menu">
+                   <ul class="nav navbar-nav">
+                       <li><a href="#about" id="about-button">About Me</a></li>
+                       <li><a href="#Works" id="works-button">Works</a></li>
+                       <li><a href="#contacts" id="contacts-button">Contacts</a></li>
+<!--
+                       <li id="about-button"><a href="#about">About Me</a></li>
+                       <li id="works-button"><a href="#Works">Works</a></li>
+                       <li id="contacts-button"><a href="#contacts">Contacts</a></li>
+-->
+                   </ul>
+               </div>
+           </div>
+        </div>
+<!---->
+<!---->
+       <div class="container about" id="about">
+           <div class="row">
+               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                   <h2>About Me</h2>
+                   <p>Hi! I'm Alexey Rozanov, 21 years old Junior Frontend Developer from Dnipropetrovsk, Ukraine! 
+                      I'm good at HTML/HTML5, CSS/CSS3, Bootstrap 3, Materialize.css, Less, JavaScript, jQuery, Gulp.
+<!--                      I'm interested in Javascript developing, making web-applications and websites. -->
+                      Now I'm studying Node.js, Angular.js, React.js, ES6, pubsub.js, etc. In the future I want to learn backend part as well.</p>
+                   <p>In my free time I like cycling, hanging out with friends, taking photos, playing tennis, reading books, watching movies/series, 
+                      traveling and self-developing. I'm good at making responsive desktop and mobile websites.</p>
+                   <p>So, may the force be with you, always!</p>
+               </div>
+               <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                   <img src="img/myself2.png" alt="myself">
+               </div>
+           </div>
+       </div>
+<!---->
+<!---->
+       <div class="container" id="Works" data-anchor="works">
+          <div class="row">
+              <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                  <h2 class="works">
+                      Checkout My Latest Works
+                  </h2>
+              </div>
+          </div>
+           <div class="row">           
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/magmagazine-preview.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>MagMagazine</h4>
+                            <a href="magmagazine.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+               
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/letusmake-preview.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Let Us Make</h4>
+                            <a href="letusmake.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/GRAphica-preview.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>GRAphica</h4>
+                            <a href="photographicas.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+               
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/flat-corporate-preview.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Flat Corporate</h4>
+                            <a href="projects/FlatCorporate/index.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+           </div>     
+
+           <div class="row">           
+               
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/Math-app-preview.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Math app</h4>
+                            <a href="mathapp.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/reen-preview.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Reen</h4>
+                            <a href="reen.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/lexelorLanding.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Lexelor landing page</h4>
+                            <a href="http://lexelor.com/" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+               <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/lexelor.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Lexelor home</h4>
+                            <a href="Lexelor/index.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+               </div>
+              <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure>
+                        <p><img src="img/oneluke.jpg" alt=""></p>
+                        <figcaption>
+                            <h4>Oneluke</h4>
+                            <a href="oneluke.html" class="btn btn-default" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3">
+                   <figure class="soon">
+  <!--                        <p><img src="img/lexelorLanding.jpg" alt=""></p>-->
+                        <figcaption>
+                            <h4>Comming soon...</h4>
+                            <a href="" class="btn btn-default disabled" target="_blank">Show me!</a>
+                        </figcaption>
+                    </figure>
+                </div>
+           </div>  
+       </div>
+<!---->
+<!---->
+       <div class="container contacts" id="contacts">
+           <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                   <h2>Contacts</h2>
+                   <h4>You can contact me next way:</h4>
+                   <p><i class="fa  fa-envelope-o"></i> <a href="rozanovz13@gmail.com"> rozanovz13@gmail.com</a></p>
+                   <p><i class="fa fa-mobile"></i> +38(063)769-14-31</p>
+                   <p><i class="fa fa-skype"></i> zindel666</p>
+                   <p><i class="fa fa-github"><a href="https://github.com/rozanovz"> rozanovz</a></i></p>
+               </div>
+           </div>
+       </div>
+<!---->
+<!----> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/smooth.js"></script>
+  </body>
 </html>
